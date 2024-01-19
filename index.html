@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <title>POMODORO</title>
+</head>
+<body>
+ 
+    <div class="container">
+        <!-- nav -->
+        <nav class="navigation">
+            <div class="nav-left">
+                <p class="nav-o">Pomodoro</p>
+                <p class="nav-po">v_1.0</p>
+            </div>
+            <ul>
+                <li><a class="nav-li "href="#steps">Steps</a></li>
+                <li><a class="nav-li "href="#tips">Tips</a></li>
+                <li><a class="nav-li-ask "href="#ask">Ask</a></li>
+                
+            </ul>
+        </nav>
+         <!-- HOME -->
+    <main class="about">
+        <div class="about-left">
+            <h1>What is that?
+            </h1>
+            <p>The Pomodoro Technique was developed in the late 1980s by then-university student Francesco Cirillo. Cirillo was struggling to focus on his studies and complete assignments. Feeling overwhelmed, he asked himself to commit to just 10 minutes of focused study time. Encouraged by the challenge, he found a tomato (pomodoro in Italian) shaped kitchen timer, and the Pomodoro technique waborn.</p>
+        </div>
+        <div class="about-img">
+            <img src="img/pomodoro.png" alt="pomodoro" class="pomo-img">
+        </div>
+    </main>
+    <!-- HOWTO -->
+    <section class="howto">
+        <h2  id="steps">Five Simple Steps</h2>
+        <ol>
+            <li><span class="bullet">1</span>Get a to-do list and a timer.</li>
+            <li><span class="bullet">2</span>Set your timer for 25 minutes, and focus on a single task until the timer rings.</li>
+            <li><span class="bullet">3</span>When your session ends, mark off one pomodoro and record what you completed.</li>
+            <li><span class="bullet">4</span>Then enjoy a five-minute break.</li>
+            <li><span class="bullet">5</span>After three pomodoros, take a longer, more restorative 15-30 minute break.</li>
+        </ol>
+    </section>
+    <!-- MESSED UP  -->
+    <h2 class="tips-title" id="tips">Tips and Tricks!</h2>
+    <!-- TIPS -->
+    <section class="tips">
+        
+        <div class="tips-box">
+            <h3>Break down complex projects!</h3>
+            <p>If a task requires more than four pomodoros, it needs to be divided into smaller, actionable steps. Sticking to this rule will help ensure you make clear progress on your projects.</p>
+        </div>
+        <div class="tips-box">
+            <h3>Small tasks go together!</h3>
+            <p>Any tasks that will take less than one Pomodoro should be combined with other simple tasks. For example, "write rent check," "set vet appointment," and "read Pomodoro article" could go together in one session.</p>
+        </div>
+        <div class="tips-box">
+            <h3>Once a pomodoro is set, it must ring!</h3>
+            <p>The pomodoro is an indivisible unit of time and can not be broken, especially not to check incoming emails, team chats, or text messages. Any ideas, tasks, or requests that come up should be noted to return to later. </p>
+        </div>
+    </section>
+    <section>
+        <div class="tips-large">
+            <h4>Create a distraction-free study/work environment beforehand!</h4>
+            <p>The main goal of the technique is to enable you to work on a task without focusing on or thinking about anything else. Creating an environment that has no distractions to affect you is the best way to make sure you can stay 100% focused. To achieve this, you can clean your desk, get rid of anything that is not study/work related, put your phone on silent and put it away, and have some coffee or water with you to make sure you don’t have to interrupt your work if you get thirsty.</p>
+        </div>
+
+    </section>
+    <section class="ask" id="ask">
+    <div class="ask-me">
+        <div class="text">
+          Got any questions?
+        </div>
+        <form action="#">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">Last Name</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">Email Address</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">Website Name</label>
+              </div>
+           </div>
+           <div class="form-row">
+           <div class="input-data textarea">
+              <textarea rows="8" cols="80" required></textarea>
+              <br />
+              <div class="underline"></div>
+              <label for="">Write your message</label>
+              <br />
+              <div class="form-row submit-btn">
+                 <div class="input-data">
+                    <div class="inner"></div>
+                    <input type="submit" value="submit">
+                 </div>
+              </div>
+        </form>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-google">
+            <h5 class="footer-head">Still in doubt? Start the engine!</h5>
+        <form action="http://www.google.com/search">
+            <input type="text" name="q">
+            <button>Search</button>
+        </form>
+    </div>
+    </div>
+    </div>
+   
+ </body>
+</html>
