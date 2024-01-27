@@ -1,0 +1,81 @@
+@media (max-width: 1024px) {
+    .nav-o {
+        font-size: 48px;
+        margin-left: 40px;
+    }
+    .nav-po {
+        margin-left: 10px;
+    }
+    .about {
+        flex-direction: column;
+
+    }
+
+    .about-left {
+        /* position: relative; */
+        max-width: 90%;
+    }
+    .about h1 {
+        font-size: 100px;
+    }
+    .about p {
+        max-width: 90%;
+        margin: 5% auto;
+    }
+
+    .about-img {
+        max-width: 60%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 120px;
+
+    }
+    .howto {
+        width: 80%;
+        }
+        .howto ol {
+        font-size: 36px;
+            }
+            .tips-box h3
+{
+font-size: 24px ;
+}
+.footer-google h5, .footer-google input, .footer-google button
+ {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-o {
+        font-size: 80px;
+        /* margin-left: 40px; */
+    }
+}
+
+/* codepen */
+@media (max-width: 700px) {
+    .ask .text{
+      font-size: 30px;
+    }
+    .ask form{
+      padding: 10px 0 0 0;
+    }
+    .ask form .form-row{
+      display: block;
+    }
+    form .form-row .input-data{
+      margin: 35px 0!important;
+    }
+    .submit-btn .input-data{
+      width: 40%!important;
+    }
+  }
+  /* codepen */
